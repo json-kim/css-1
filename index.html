@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>css1</title>
+        <!--왠만하면 스타일은 여기에
+        클래스 앞에는 . 붙여서
+        아이디는 # 붙여서
+        마지막에 선언된 애가 최종 결정값
+        -->
+        <style>
+            div{
+                border: 1px solid #ff0000;
+                width: 50%;
+                height: 30px;
+            }
+
+            .span1{
+                display: inline-block;
+                background-color: yellow;
+                width: 50px;
+            }
+
+            #div2{
+                border: 2px solid #000000;
+            }
+
+            .span3{
+                display: inline-block;
+                width: 50px;
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="div_class first_class" name="div_name" id="div1">
+            <span class="span1 div1">1</span>
+            <span class="span2 div1">2</span>
+            <span class="span3 div1">3</span>
+        </div>
+
+        <div class="div_class second_class" name="div_name" id="div2">
+            <span class="span1 div2">1</span>
+            <span class="span2 div2">2</span>
+            <span class="span3 div2">3</span>
+        </div>
+        
+        <div class="div_class third_class" name="div" id="div3">
+            <span class="span1 div3">1</span>
+            <span class="span2 div3">2</span>
+            <span class="span3 div3">3</span>
+        </div>
+        
+    </body>
+</html>
